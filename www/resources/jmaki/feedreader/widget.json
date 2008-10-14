@@ -1,0 +1,24 @@
+{
+  "name": "Feedreader",
+  "type": "jmaki",
+  "version": "1.0",
+  "jmakiVersion" : "1.0",
+  "author" : "Carla Mott",
+  "image" : "images/jmaki-feedreader.jpg",           
+  "url" : "https://ajax.dev.java.net",
+  "description": "Read in blog feeds",
+  "args": [
+      {"showNavigation":{"type":"BOOLEAN", "defaultValue": "true", "description": "Whether or not to show navigation arrows when pagging is available."}},
+      {"count":{"type":"NUMBER", "defaultValue": 3, "description": "The number of blocks to display at any given time."}},
+       {"navpages":{"type":"NUMBER", "defaultValue":6, "description": "The maximum number page links to show in the navigation list."}},
+      {"entryMaxLength":{"type":"NUMBER", "defaultValue": 450, "description": "The maximum number of characters to display in an entry."}},
+      {"blockHeight":{"type":"NUMBER", "defaultValue": 95, "description": "Constrain the height of the blocks."}},
+      {"filter":{"type":"STRING", "defaultValue": "", "description": "The number of blocks to display at any given time."}},
+      {"feed":{"type":"STRING", "defaultValue": "https://api.feedburner.com/format/1.0/JSONP?uri=Jmakicom", "description": "The feed on feedburner returning a JSONP value. Callback to widget is appended to this URL."}}        
+        ],
+   "topicInfo": {
+       "defaultPublish" : "/jmaki/feedreader",
+       "defaultSubscribe" : [ "/jmaki/feedreader"],
+       "description":"This widget currently does not publish any events and subscribes to any commands."
+    }           
+}
