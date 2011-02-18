@@ -24,7 +24,7 @@
 		<a href="http://java.net/projects/jstl/sources/svn/show/" match="http://java.net/projects/jstl/sources/svn/show/.*">Subversion repository</a>
 	</ul>
     <li>
-        <a href="http://java.net/jira/browse/UEL/">IssueTracker</a>
+        <a href="http://java.net/jira/browse/JSTL/">IssueTracker</a>
 </ul>
 
 <script>
