@@ -18,7 +18,7 @@
     <li>
         <a href="http://java.net/projects/jstl/roles">Membership</a>
     <li>
-	<a href="#">Developing Expression Language</a>
+	<a href="#">Developing JSTL</a>
 	<ul>
 	    <li>
 		<a href="http://java.net/projects/jstl/sources/svn/show/" match="http://java.net/projects/jstl/sources/svn/show/.*">Subversion repository</a>
